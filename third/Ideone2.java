@@ -24,7 +24,7 @@ class Ideone2
             
             else if((ch >= 'a'&& ch <= 'z')) 
             {
-            	System.out.println("Consonent");
+            	System.out.println("Consonant");
             }
                 
             
