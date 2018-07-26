@@ -18,7 +18,7 @@ class Ideone2
         if(ch == 'a' || ch == 'e' || ch == 'i'
                 || ch == 'o' || ch == 'u')
                 {
-                	System.out.println("Vowels");
+                	System.out.println("Vowel");
                 }
                 
             
