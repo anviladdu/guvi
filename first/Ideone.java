@@ -14,11 +14,11 @@ class Ideone
 		int number=sc.nextInt();
 		if(number>0)
 		   {
-		   	System.out.println("positive number");
+		   	System.out.println("positive");
 		   }
 		 else if(number<0)
 		    {
-		    	System.out.println("negative number");
+		    	System.out.println("negative");
 		    }
 		  else
 		  {
