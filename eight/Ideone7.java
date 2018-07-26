@@ -17,8 +17,9 @@ class Ideone7
 		   {
 		   	    
 		   	    sum = sum + i;
-		   	    System.out.println(sum);
+		   	 
 		   }
+		System.out.println(sum);
 		
 		
 		
