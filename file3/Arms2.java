@@ -32,8 +32,8 @@ class Arms2
 		    	       	  result+=Math.pow(remainder,digits);
 		    	       	  temp=temp/10;
 		    	        }
-		    	        if(temp==i)
-		    	          System.out.println(temp+" ");
+		    	        if(result==i)
+		    	          System.out.print(i+" ");
 		    }
 	}
 }
