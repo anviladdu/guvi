@@ -10,11 +10,25 @@ class Arth
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		    int sum=(n*(a+b))/2;
-		    System.out.println(sum);
+
+
+	            	Scanner input = new Scanner(System.in);
+                                    int firstTerm= 0;
+                                    int numberOfTerms = 0;
+                                    int nthTerm = 0;
+                                    int commonDifference = 0;
+                                    int  sum= 0;
+                                    int term = 0;
+                                    numberOfTerms = input.nextInt();
+                                    commonDifference = input.nextInt();
+                                    firstTerm = input.nextInt();
+                                    sum = numberOfTerms * (2 * firstTerm + (numberOfTerms - 1) * commonDifference)/2;
+                                       for(int i = 0; i < numberOfTerms; i++)
+                                        {
+                                           term = firstTerm + i * commonDifference;
+                                        }
+                                           System.out.println(sum);
 	}
+
+	
 }
