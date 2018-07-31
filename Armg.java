@@ -19,7 +19,7 @@ class Armg
 		   {
 		   	  a=a/10;
 		   	  rem = rem % 10;
-		   	  sum=sum*rem*rem*rem;
+		   	  sum=sum+{rem*rem*rem);
 		   }
 		   if(temp==sum)
 		     {
@@ -31,3 +31,4 @@ class Armg
 		    }
 	}
 }
+}	
