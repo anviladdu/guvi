@@ -14,6 +14,6 @@ class Min
 		int t=sc.nextInt();
 		int hours = t / 60; //since both are ints, you get an int
         int minutes = t % 60;
-        System.out.printf("%d%2d", hours, minutes);
+        System.out.printf("%d %2d", hours,minutes);
 	}
 }
