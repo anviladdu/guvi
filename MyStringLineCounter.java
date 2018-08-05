@@ -16,8 +16,7 @@ class MyStringLineCounter {
      
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
-        System.out.println(str);
         int count = getLineCount(str);
-        System.out.println("line count: "+count);
+        System.out.println(count);
 	}
 }
