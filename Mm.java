@@ -34,7 +34,7 @@ class Mm
                 max = a[i];
             }
         }
-        System.out.println(min);
+        System.out.println(min+" ");
         System.out.println(max);
 	}
 }
