@@ -29,12 +29,12 @@ class NumberToWordConverter
 	private static String numberToWord(int number) {
                 // variable to hold string representation of number 
                 String words = "";
-		String unitsArray[] = { "zero", "one", "two", "three", "four", "five", "six", 
-                                "seven", "eight", "nine", "ten", "eleven", "twelve",
-                                "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", 
-                                "eighteen", "nineteen" };
-		String tensArray[] = { "zero", "ten", "twenty", "thirty", "forty", "fifty",
-                                 "sixty", "seventy", "eighty", "ninety" };
+		String unitsArray[] = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", 
+                                "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve",
+                                "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", 
+                                "Eighteen", "Nineteen" };
+		String tensArray[] = { "Zero", "Ten", "Twenty", "Thirty", "Forty", "Fifty",
+                                 "Sixty", "Seventy", "Eighty", "Ninety" };
  
 		if (number == 0) {
 			return "zero";
