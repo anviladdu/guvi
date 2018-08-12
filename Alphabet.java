@@ -26,10 +26,10 @@ class Alphabet
      }
      int sum=v+u;
      if(sum==2){
-         System.out.println("yes");
+         System.out.println("Yes");
      }
  else{
-         System.out.print("no");
- }
+         System.out.print("No");
+}
 	}
 }
