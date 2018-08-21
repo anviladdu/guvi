@@ -20,7 +20,7 @@ class Set7_9
 		}
 		else
 		  {
-		  	 System.out.print("no");
+		  	 System.out.print("odd");
 		  }
 	}
 }
