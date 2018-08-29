@@ -23,11 +23,11 @@ class Set8_6
 		}
 		if(count>2)
 		{
-			System.out.println("no");
+			System.out.println("yes");
 		}
 		else
 		{
-			System.out.println("yes");
+			System.out.println("no");
 		}
 	}
 }
