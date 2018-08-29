@@ -14,10 +14,10 @@ class Set8_8
         Scanner s=new Scanner(System.in);
        b=s.nextInt();
        if(b%13==0){
-           System.out.println("Yes");
+           System.out.println("yes");
        }
  else{
-           System.out.println("No");
+           System.out.println("no");
  }
 	}
 }
