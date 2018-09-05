@@ -14,6 +14,6 @@ class Set9_2
        float a=s.nextFloat();
        float b=s.nextFloat();
        float c=a*b;
-       System.out.printf("%f",c);
+       System.out.printf("%.5f",c);
 	}
 }
